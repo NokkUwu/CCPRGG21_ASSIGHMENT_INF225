@@ -89,7 +89,10 @@ public class App {
 
     static void fixRecipe(String school) {
         System.out.print("Enter additional driving lesson:");
-        String lesson = scan.next();
+        
+        scan.nextLine();
+        String lesson = scan.nextLine();
+        
         System.out.println("Fixing driving. Learned " + lesson);
     }
 
